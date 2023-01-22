@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: local('Roboto');
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+html {
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #FFE2B0;
+}
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+a {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 200px;
+}
+
+.secition-about {
+    width: auto;
+    height: 640px;
+    background: url(../img/backgraund.jpg) center/cover no-repeat;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 20px;
+}   
+
+.secition-about__description {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213,178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    top: 54%;
+    left: 62%;
+    padding-top: 15px;
+}
+
+.secition-about__border {
+    height: 160px;
+    width: 390px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    text-align: center;
+    padding: 17px 0 0 0;
+}
+
+.secition-about__title {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.secition-about__text {
+    font-size: 16px;
+    margin: 0;
+}
+
+.secition-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secition-description__icon-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.secition-description__icon-box img {
+    width: 290px;
+    height: 205px;
+    margin-right: 76px;
+}
+
+.secition-description__icon-box img:last-child {
+    margin-right: 0;
+}
+
+.secition-description__title {
+    font-size: 96px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.secition-description__span {
+    color: #F15B40;
+}
+
+.secition-description__text {
+    font-size: 18px;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.secition-map {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secition-map__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.line {
+    border: 1px solid #999999;   
+    width: 1024px;
+    margin: 0 auto 20px;
+}
+
+footer {
+    height: 80px;
+}
